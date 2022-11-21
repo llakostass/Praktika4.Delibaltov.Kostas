@@ -15,10 +15,10 @@ public class Main
         Iterator itr = new Iterator(l);
         while (itr.hasNext())
         {
-            //  moving cursor to next element
+            //  перемещение курсора к следующему элементу
             Node t = itr.next();
 
-            // getting even elements one by one
+            // получение четных элементов один за другим
             System.out.print(t + " ");
 
         }
